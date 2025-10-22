@@ -5,6 +5,10 @@ body {
     scroll-behavior: smooth;
     padding-top: 80px;
 }
+.container {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
 
 .brand-logo {
     width: 40px;
