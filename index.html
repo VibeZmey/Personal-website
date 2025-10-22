@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Моя визитка</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/index.css" rel="stylesheet" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="/index.html">
+      <span class="brand-logo">ZM</span>
+      <div class="d-none d-sm-block">
+        <small class="text-muted">Змеев Илья</small>
+      </div>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Главная</a></li>
+        <li class="nav-item"><a class="nav-link" href="pages/projects.html">Проекты</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container">
+
+  <section class="py-5">
+    <div class="row align-items-center g-4">
+      <div class="col-md-4 text-center">
+        <img src="./images/me.png" alt="Мое фото" class="rounded-circle img-fluid  shadow-sm">
+      </div>
+      <div class="col-md-8">
+        <h1 class="mb-2">Привет! Я Илья Змеев</h1>
+        <p class="lead text-muted">Я — студент, увлечённый веб-разработкой и созданием интерактивных приложений. Люблю изучать новые технологии, строить UI и доводить проекты до рабочего состояния.</p>
+        <p>Коротко обо мне: учусь на Фуллстек-разработчика в группе ЭФБО-03-24. Ищу стажировку/первую работу в сфере фронтенда или кроссплатформенной разработки.</p>
+        <a href="./pages/projects.html" class="btn btn-primary mt-2">Посмотреть мои проекты</a>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="py-4">
+    <h2>Навыки</h2>
+    <p class="text-muted">Технологии и инструменты, с которыми я работаю:</p>
+    <div class="d-flex flex-wrap">
+      <span class="badge bg-primary skill-badge">HTML</span>
+      <span class="badge bg-info text-dark skill-badge">CSS</span>
+      <span class="badge bg-danger skill-badge">JavaScript</span>
+      <span class="badge bg-success skill-badge">React</span>
+      <span class="badge bg-secondary skill-badge">C#</span>
+      <span class="badge bg-dark skill-badge">C++</span>
+      <span class="badge bg-warning text-dark skill-badge">Qt</span>
+      <span class="badge bg-primary skill-badge">Git</span>
+      <span class="badge bg-info skill-badge">Bootstrap</span>
+      <span class="badge bg-success skill-badge">SQL</span>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="py-5">
+    <h2 class="mb-4">Мои проекты</h2>
+    <div class="row g-4">
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card project-card h-200 shadow-sm">
+          <img src="images/digitalshop-prev.png" class="card-img-top img-" alt="Digital Shop">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Digital Shop</h5>
+            <p class="card-text text-muted">Приложение телеграмм, магазин интернет-товаров. Технологии: Node.js, React, Postgres.</p>
+            <div class="mt-auto">
+              <a href="./pages/projects.html" class="btn btn-outline-primary btn-sm">Подробнее</a>
+              <a href="https://github.com/VibeZmey/Digital-shop-app" class="btn btn-primary btn-sm" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Проект 2 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card project-card h-100 shadow-sm">
+          <img src="images/vibecaps-prev.png" class="card-img-top" alt="Vibe Caps">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Vibe Caps</h5>
+            <p class="card-text text-muted">Сайт для тестирования скорости печати. Технологии: HTML, CSS, JS.</p>
+            <div class="mt-auto">
+              <a href="./pages/projects.html" class="btn btn-outline-primary btn-sm">Подробнее</a>
+              <a href="https://github.com/VibeZmey/Vibe-Caps" class="btn btn-primary btn-sm" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card project-card h-100 shadow-sm">
+          <img src="images/checkers-prev.png" class="card-img-top" alt="Personal website">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Checkers</h5>
+            <p class="card-text text-muted">Классическая игра шашки. Технологии: C++, QT, QSS.</p>
+            <div class="mt-auto">
+              <a href="./pages/projects.html" class="btn btn-outline-primary btn-sm">Подробнее</a>
+              <a href="https://github.com/VibeZmey/Сheckers" class="btn btn-primary btn-sm" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="py-4">
+    <h2>Контакты</h2>
+    <p class="text-muted">Связаться со мной можно через:</p>
+    <ul class="list-unstyled">
+      <li>Email: <a href="mailto:student@example.com">zmeev.i.v@edu.mirea.ru</a></li>
+      <li>Telegram: <a href="https://t.me/yourhandle" target="_blank" rel="noopener">@ilyatwopizza</a></li>
+      <li>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener">https://github.com/VibeZmey</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container text-center">
+    <small class="text-muted">© 2025 Змеев Илья — студенческая визитка. Размещено на GitHub Pages.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

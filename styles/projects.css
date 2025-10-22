@@ -1,0 +1,97 @@
+:root{
+    --brand-color: #0d6efd;
+}
+
+body {
+    padding-top: 80px; /* чтобы navbar не перекрывал контент */
+    background: #fff;
+}
+
+/* Обычный белый navbar как в index.html */
+.navbar {
+    background: #ffffff;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.container {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.brand-logo {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff;
+    background: var(--brand-color);
+    border-radius: 8px;
+    margin-right: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+}
+
+.page-title { margin: 18px 0 8px; }
+
+/* Скриншоты проектов — увеличенная высота */
+.screenshot-wrap {
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    background: #e9ecef;
+}
+.screenshot-wrap img {
+    width: 100%;
+    height: auto;            /* чуть больше по высоте */
+    object-fit: cover;
+    display: block;
+}
+@media (max-width: 576px) {
+    .screenshot-wrap img {
+        height: 220px;
+    }
+}
+
+.tech-list {
+    gap: .4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tech-list .badge { margin-right: .35rem; margin-bottom: .35rem; }
+
+footer {
+    background: #f8f9fa;
+    padding: 24px 0;
+    margin-top: 48px;
+}
+
+.card-body pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+    background: #f6f8fa;
+    padding: .6rem;
+    border-radius: .25rem;
+    font-size: .9rem;
+    margin-bottom: .5rem;
+}
+/* Ограничиваем высоту карусели в модальном окне */
+.carousel-item img {
+    max-height: 70vh;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* инвертирует чёрный → белый */
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
