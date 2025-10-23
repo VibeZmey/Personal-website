@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Проекты — Визитка студента</title>
 
-  <!-- Bootstrap CSS (CDN) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="../styles/projects.css" rel="stylesheet" />
 </head>
@@ -20,18 +19,13 @@
       </div>
     </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
         <li class="nav-item"><a class="nav-link active" href="projects.html">Проекты</a></li>
         <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
       </ul>
-    </div>
-  </div>
+</div>
 </nav>
 
 <main class="container mt-5 pt-4">
@@ -41,7 +35,6 @@
   </header>
 
   <div class="row g-4">
-    <!-- Проект 1 -->
     <div class="col-md-6">
       <div class="card shadow-sm h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modal1">
         <div class="screenshot-wrap">
@@ -56,7 +49,6 @@
       </div>
     </div>
 
-    <!-- Проект 2 -->
     <div class="col-md-6">
       <div class="card shadow-sm h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modal2">
         <div class="screenshot-wrap">
@@ -71,7 +63,6 @@
       </div>
     </div>
 
-    <!-- Проект 3 -->
     <div class="col-md-6">
       <div class="card shadow-sm h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modal3">
         <div class="screenshot-wrap">
@@ -86,8 +77,6 @@
       </div>
     </div>
 
-  <!-- Модалки -->
-  <!-- Modal 1 -->
   <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-scrollable">
       <div class="modal-content">
@@ -111,7 +100,7 @@
                 <img src="../images/digitalshop-4.jpg" class="d-block w-100" alt="Скриншот 3">
               </div>
             </div>
-            <!-- Стрелки навигации -->
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject1" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -154,12 +143,11 @@
     </div>
   </div>
 
-  <!-- Modal 2 -->
   <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modal2Label">Digital Shop — телеграм веб-приложение</h5>
+          <h5 class="modal-title" id="modal2Label">Шашки — десктопная игра</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -175,7 +163,7 @@
                 <img src="../images/checkers-2.png" class="d-block w-100" alt="Скриншот 3">
               </div>
             </div>
-            <!-- Стрелки навигации -->
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject2" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -213,12 +201,11 @@
     </div>
   </div>
 
-  <!-- Modal 3 -->
     <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="modal3Label">Digital Shop — телеграм веб-приложение</h5>
+            <h5 class="modal-title" id="modal3Label">VibeCaps — тест скорости печати</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -253,8 +240,7 @@
             <div class="tech-list mb-2">
               <span class="badge bg-primary">HTML5</span>
               <span class="badge bg-info">CSS3</span>
-              <span class="badge bg-danger">Vanilla JavaScript</span>
-              <span class="badge bg-secondary">localStorage</span>
+              <span class="badge bg-danger">JavaScript</span>
             </div>
 
             <h6>Ключевые фичи</h6>
@@ -284,7 +270,6 @@
   </div>
 </footer>
 
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

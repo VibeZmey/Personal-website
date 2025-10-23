@@ -3,11 +3,10 @@
 }
 
 body {
-    padding-top: 80px; /* чтобы navbar не перекрывал контент */
+    padding-top: 80px;
     background: #fff;
 }
 
-/* Обычный белый navbar как в index.html */
 .navbar {
     background: #ffffff;
     border-bottom: 1px solid rgba(0,0,0,0.05);
@@ -33,7 +32,6 @@ body {
 
 .page-title { margin: 18px 0 8px; }
 
-/* Скриншоты проектов — увеличенная высота */
 .screenshot-wrap {
     width: 100%;
     overflow: hidden;
@@ -43,15 +41,11 @@ body {
 }
 .screenshot-wrap img {
     width: 100%;
-    height: auto;            /* чуть больше по высоте */
+    height: auto;
     object-fit: cover;
     display: block;
 }
-@media (max-width: 576px) {
-    .screenshot-wrap img {
-        height: 220px;
-    }
-}
+
 
 .tech-list {
     gap: .4rem;
@@ -75,7 +69,7 @@ footer {
     font-size: .9rem;
     margin-bottom: .5rem;
 }
-/* Ограничиваем высоту карусели в модальном окне */
+
 .carousel-item img {
     max-height: 70vh;
     height: auto;
@@ -88,7 +82,7 @@ footer {
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: invert(1); /* инвертирует чёрный → белый */
+    filter: invert(1);
 }
 
 .card img {
